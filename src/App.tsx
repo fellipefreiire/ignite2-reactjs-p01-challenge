@@ -1,10 +1,13 @@
 import { useState } from 'react'
-import './App.css'
+import { Header } from './components/Header';
+import { Todo } from './components/Todo';
+import './global.css';
 
 function App() {
   return (
     <div>
-      <div></div>
+      <Header />
+      <Todo />
     </div>
   )
 }

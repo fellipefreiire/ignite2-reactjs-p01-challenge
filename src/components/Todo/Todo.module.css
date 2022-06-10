@@ -1,0 +1,76 @@
+.todoWrapper {
+	max-width: 46rem;
+	margin: auto;
+	margin-top: calc(0px - 3.375rem / 2);
+}
+.addBox {
+	height: 3.375rem;
+	display: flex;
+	gap: 0.5rem;
+	margin-bottom: 4rem;
+}
+
+.addBox input {
+	padding: 1rem;
+	width: 100%;
+	background: var(--gray-500);
+	color: var(--gray-300);
+	border-radius: 8px;
+	line-height: 1.4;
+	border: 0;
+}
+
+.addBox input:focus {
+	outline: var(--purple-dark);
+	color: var(--white);
+}
+
+.addBox button {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	font-size: 0.875rem;
+	font-weight: bold;
+	padding: 1rem;
+	line-height: 1.4;
+	color: var(--gray-100);
+	background: var(--blue-dark);
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.addBox button:hover {
+	background: var(--blue);
+}
+
+.todo header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1.5rem;
+}
+
+.todo header strong {
+	font-size: 0.875rem;
+	font-weight: bold;
+}
+
+.todo header span {
+	background: var(--gray-400);
+	padding: 0.125rem 0.5rem;
+	border-radius: 999px;
+
+	font-size: 0.75rem;
+	font-weight: bold;
+	color: var(--gray-200);
+}
+
+.createdTasks strong {
+	color: var(--blue);
+	margin-right: 0.5rem;
+}
+
+.concludedTasks strong {
+	color: var(--purple);
+	margin-right: 0.5rem;
+}
